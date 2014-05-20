@@ -15,9 +15,9 @@ Source:         http://gstreamer.freedesktop.org/src/gst-python/%{oname}-%{versi
 BuildRequires:  pkgconfig(python)
 BuildRequires:  pkgconfig
 BuildRequires:  gstreamer%{api}-devel >= 1.2.0
-BuildRequires:  pkgconfig(pygobject-2.0)
+BuildRequires:  pkgconfig(pygobject-3.0)
 
-Requires:       python-gobject
+Requires:       python-gobject3
 Requires:       gstreamer%{api} >= 1.2.0
 
 Provides:       gstreamer%{api}-python = %{EVRD}

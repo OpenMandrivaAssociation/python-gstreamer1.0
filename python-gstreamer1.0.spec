@@ -18,7 +18,7 @@ BuildRequires:  gstreamer%{api}-devel >= 1.2.0
 BuildRequires:  pkgconfig(pygobject-3.0)
 
 Requires:       python-gobject3
-Requires:       gstreamer >= 1.2.0
+Requires:       gstreamer1.0-tools >= 1.2.0
 
 Provides:       gstreamer%{api}-python = %{EVRD}
 

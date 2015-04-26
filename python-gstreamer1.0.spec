@@ -1,6 +1,7 @@
 # gst1 api recall here
 %define api 1.0
 %define oname gst-python
+%define _disable_ld_no_undefined 1
 
 Summary:	Python bindings for GStreamer%{api}
 Name:		python-gstreamer%{api}
@@ -24,6 +25,7 @@ applications that use GStreamer 1.0 in Python.
 %files
 %doc AUTHORS COPYING ChangeLog NEWS README
 %{py_platsitedir}/gi/overrides/*
+%{_libdir}/gstreamer-1.0/libgstpythonplugin.so
 
 #----------------------------------------------------------------------------
 

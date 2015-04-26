@@ -4,7 +4,7 @@
 
 Name:           python-gstreamer%{api}
 Version:        1.2.1
-Release:        1
+Release:        2
 Summary:        Python bindings for GStreamer%{api}
 
 Group:          Development/Python

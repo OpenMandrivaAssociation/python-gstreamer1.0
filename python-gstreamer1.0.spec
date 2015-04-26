@@ -13,7 +13,7 @@ Url:		http://gstreamer.freedesktop.org/
 Source0:	http://gstreamer.freedesktop.org/src/gst-python/%{oname}-%{version}.tar.xz
 BuildRequires:	pkgconfig(gstreamer-%{api}) >= 1.4.0
 BuildRequires:	pkgconfig(pygobject-3.0)
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 Requires:	gstreamer1.0-tools >= 1.4.0
 Requires:	python-gobject3
 Provides:	gstreamer%{api}-python = %{EVRD}

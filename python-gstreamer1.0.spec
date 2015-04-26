@@ -4,16 +4,16 @@
 
 Summary:	Python bindings for GStreamer%{api}
 Name:		python-gstreamer%{api}
-Version:	1.2.1
-Release:	2
+Version:	1.4.0
+Release:	1
 Group:		Development/Python
 License:	LGPLv2.1+
 Url:		http://gstreamer.freedesktop.org/
-Source0:	http://gstreamer.freedesktop.org/src/gst-python/%{oname}-%{version}.tar.bz2
-BuildRequires:	pkgconfig(gstreamer-%{api}) >= 1.2.0
+Source0:	http://gstreamer.freedesktop.org/src/gst-python/%{oname}-%{version}.tar.xz
+BuildRequires:	pkgconfig(gstreamer-%{api}) >= 1.4.0
 BuildRequires:	pkgconfig(pygobject-3.0)
 BuildRequires:	pkgconfig(python)
-Requires:	gstreamer1.0-tools >= 1.2.0
+Requires:	gstreamer1.0-tools >= 1.4.0
 Requires:	python-gobject3
 Provides:	gstreamer%{api}-python = %{EVRD}
 

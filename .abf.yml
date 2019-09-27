@@ -1,6 +1,2 @@
-removed_sources:
-  gst-python-1.2.1.tar.bz2: 47fe5be08432b6be7b88e375e54f8ce8336bdf2e
-  gst-python-1.4.0.tar.xz: 9f193c8945840ebf6a75ffc728fe08fea8302c49
-  gst-python-1.6.2.tar.xz: d0f6c0b1975a14a8fa8ce201d7df521f000e3dc3
 sources:
-  gst-python-1.13.1.tar.xz: 0b81b07d1fd4a52822d26eb9f62746869f469eda
+  gst-python-1.16.1.tar.xz: 2d6854adf591c3089861c0a85a84c0bd9f8bec5c

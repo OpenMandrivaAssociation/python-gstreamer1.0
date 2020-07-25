@@ -6,11 +6,12 @@
 Summary:	Python bindings for GStreamer%{api}
 Name:		python-gstreamer%{api}
 Version:	1.16.2
-Release:	3
+Release:	4
 Group:		Development/Python
 License:	LGPLv2.1+
 Url:		http://gstreamer.freedesktop.org/
 Source0:	http://gstreamer.freedesktop.org/src/gst-python/%{oname}-%{version}.tar.xz
+Patch1:		python38-compat.patch
 BuildRequires:	pkgconfig(gstreamer-%{api})
 BuildRequires:	pkgconfig(pygobject-3.0)
 BuildRequires:	pkgconfig(python3)
@@ -29,7 +30,7 @@ applications that use GStreamer 1.0 in Python.
 #----------------------------------------------------------------------------
 
 %prep
-%setup -qn %{oname}-%{version}
+%autosetup -p1 -n %{oname}-%{version}
 
 %build
 %configure

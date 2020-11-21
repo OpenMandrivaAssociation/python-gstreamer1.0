@@ -28,8 +28,8 @@ applications that use GStreamer 1.0 in Python.
 
 %files
 %doc AUTHORS COPYING ChangeLog NEWS README
-%{py_platsitedir}/gi/overrides/*
-%{_libdir}/gstreamer-1.0/libgstpython.cpython*.so
+#{py_platsitedir}/gi/overrides/*
+#{_libdir}/gstreamer-1.0/libgstpython.cpython*.so
 #----------------------------------------------------------------------------
 
 %prep

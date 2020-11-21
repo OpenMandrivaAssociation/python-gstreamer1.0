@@ -30,6 +30,7 @@ applications that use GStreamer 1.0 in Python.
 %doc AUTHORS COPYING ChangeLog NEWS README
 %{python_sitelib}/gi/overrides/Gst*
 %{python_sitelib}/gi/overrides/__pycache__/*
+%{python_sitelib}/gi/overrides/_gi_gst.cpython-*-*-linux-gnu.so
 %{_libdir}/gstreamer-1.0/libgstpython.so
 #----------------------------------------------------------------------------
 

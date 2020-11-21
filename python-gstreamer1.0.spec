@@ -14,6 +14,7 @@ Source0:	http://gstreamer.freedesktop.org/src/gst-python/%{oname}-%{version}.tar
 #Patch1:		python38-compat.patch
 
 BuildRequires:  meson
+BuildRequires:  pkgconfig(gstreamer-plugins-base-1.0)
 BuildRequires:	pkgconfig(gstreamer-%{api})
 BuildRequires:	pkgconfig(pygobject-3.0)
 BuildRequires:	pkgconfig(python3)

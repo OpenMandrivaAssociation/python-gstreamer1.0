@@ -10,10 +10,10 @@ Part-of: <https://gitlab.freedesktop.org/gstreamer/gstreamer/-/merge_requests/16
  .../gst-python/gi/overrides/gstmodule.c       | 21 ++++++++++++++++---
  1 file changed, 18 insertions(+), 3 deletions(-)
 
-diff --git a/subprojects/gst-python/gi/overrides/gstmodule.c b/subprojects/gst-python/gi/overrides/gstmodule.c
+diff --git a/gst-python/gi/overrides/gstmodule.c b/gst-python/gi/overrides/gstmodule.c
 index 2308eb7dcde..dc8364a344d 100644
---- a/subprojects/gst-python/gi/overrides/gstmodule.c
-+++ b/subprojects/gst-python/gi/overrides/gstmodule.c
+--- a/gst-python/gi/overrides/gstmodule.c
++++ b/gst-python/gi/overrides/gstmodule.c
 @@ -685,22 +685,37 @@ pygst_debug_log (PyObject * pyobject, PyObject * string, GstDebugLevel level,
  
    frame = PyEval_GetFrame ();

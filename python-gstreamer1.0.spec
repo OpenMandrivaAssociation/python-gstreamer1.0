@@ -5,13 +5,13 @@
 
 Summary:	Python bindings for GStreamer%{api}
 Name:		python-gstreamer%{api}
-Version:	1.20.0
+Version:	1.20.1
 Release:	1
 Group:		Development/Python
 License:	LGPLv2.1+
 Url:		http://gstreamer.freedesktop.org/
 Source0:	http://gstreamer.freedesktop.org/src/gst-python/%{oname}-%{version}.tar.xz
-
+#Patch0:   https://gitlab.freedesktop.org/gstreamer/gstreamer/-/commit/b6ffad41cae204d1cb71de537d0ae71242429d91.patch
 BuildRequires:  meson
 BuildRequires:  pkgconfig(gstreamer-plugins-base-1.0)
 BuildRequires:	pkgconfig(gstreamer-%{api})
@@ -28,7 +28,6 @@ applications that use GStreamer 1.0 in Python.
 %files
 %doc AUTHORS COPYING ChangeLog NEWS README
 %{python_sitelib}/gi/overrides/Gst*
-%{python_sitelib}/gi/overrides/__pycache__/*
 %{python_sitelib}/gi/overrides/_gi_gst.cpython-*-*-linux-gnu.so
 %{_libdir}/gstreamer-1.0/libgstpython.so
 #----------------------------------------------------------------------------

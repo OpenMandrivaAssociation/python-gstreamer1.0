@@ -25,7 +25,7 @@ This module contains PyGObject overrides to make it easier to write
 applications that use GStreamer 1.0 in Python.
 
 %files
-%doc AUTHORS COPYING ChangeLog NEWS README
+%doc COPYING ChangeLog NEWS
 %{python_sitearch}/gi/overrides/
 %{_libdir}/gstreamer-1.0/libgstpython.so
 #----------------------------------------------------------------------------

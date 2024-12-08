@@ -5,7 +5,7 @@
 
 Summary:	Python bindings for GStreamer%{api}
 Name:		python-gstreamer%{api}
-Version:	1.24.9
+Version:	1.24.10
 Release:	1
 Group:		Development/Python
 License:	LGPLv2.1+

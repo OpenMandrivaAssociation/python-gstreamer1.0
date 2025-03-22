@@ -14,6 +14,7 @@ Source0:	https://gstreamer.freedesktop.org/src/gst-python/%{oname}-%{version}.ta
 BuildRequires:  meson
 BuildRequires:  pkgconfig(gstreamer-plugins-base-1.0)
 BuildRequires:	pkgconfig(gstreamer-%{api})
+BuildRequires:  pkgconfig(gstreamer-analytics-1.0)
 BuildRequires:	pkgconfig(pygobject-3.0)
 BuildRequires:	pkgconfig(python3)
 Requires:	gstreamer1.0-tools

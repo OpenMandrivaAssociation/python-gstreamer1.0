@@ -5,7 +5,7 @@
 
 Summary:	Python bindings for GStreamer%{api}
 Name:		python-gstreamer%{api}
-Version:	1.26.10
+Version:	1.28.1
 Release:	1
 Group:		Development/Python
 License:	LGPLv2.1+
@@ -27,7 +27,7 @@ This module contains PyGObject overrides to make it easier to write
 applications that use GStreamer 1.0 in Python.
 
 %files
-%doc COPYING ChangeLog NEWS
+%doc COPYING ChangeLog
 %{python_sitearch}/gi/overrides/
 %{_libdir}/gstreamer-1.0/libgstpython.so
 #----------------------------------------------------------------------------

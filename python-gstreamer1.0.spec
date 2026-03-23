@@ -30,6 +30,7 @@ applications that use GStreamer 1.0 in Python.
 %doc COPYING ChangeLog
 %{python_sitearch}/gi/overrides/
 %{_libdir}/gstreamer-1.0/libgstpython.so
+%{_libdir}/gstreamer-1.0/python/gesotioformatter.py
 #----------------------------------------------------------------------------
 
 %prep

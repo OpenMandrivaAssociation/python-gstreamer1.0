@@ -37,7 +37,9 @@ applications that use GStreamer 1.0 in Python.
 %autosetup -p1 -n %{oname}-%{version}
 
 %build
-%meson
+# testsuite/meson.build requires every GStreamer library at this exact
+# version. Those tests are not run from this package.
+%meson -Dtests=disabled
 %meson_build
 
 %install
